@@ -1,0 +1,24 @@
+{
+    "file": "server/internal/app/app.go",
+    "line": 52,
+    "Subjective Priority": {
+        "Value": 5,
+        "Description": "HTTP timeouts are necessary to expire inactive connections and failing to do so might make the application vulnerable to attacks like slowloris."
+    },
+    "Fix": {
+        "story_points": 1,
+        "lines_affected": 1
+    },
+    "Score": {
+        "Severity": "MEDIUM",
+        "Confidence": "HIGH",
+        "Value": 6
+    },
+    "Code Analysis": {
+        "Real_impact": "HIGH",
+        "Details": "Use of net/http serve function that has no support for setting timeouts"
+    },
+    "Exploitability": "Medium",
+    "Is Test?": "No",
+    "CWE Scope Impact": "A"
+}

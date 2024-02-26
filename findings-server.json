@@ -1,0 +1,75 @@
+{
+	"Issues": [
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "676",
+				"url": "https://cwe.mitre.org/data/definitions/676.html"
+			},
+			"rule_id": "G114",
+			"details": "Use of net/http serve function that has no support for setting timeouts",
+			"file": "server/internal/app/app.go",
+			"code": "51: \n52: \terr = http.ListenAndServe(\":8080\", log)\n53: \tif err != nil {\n",
+			"line": "52",
+			"column": "8",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "89",
+				"url": "https://cwe.mitre.org/data/definitions/89.html"
+			},
+			"rule_id": "G201",
+			"details": "SQL string formatting",
+			"file": "server/internal/handlers/handlers.go",
+			"code": "88: \n89: \t\tquery := fmt.Sprintf(\"SELECT id, description FROM Products WHERE id = '%s'\", id)\n90: \n",
+			"line": "89",
+			"column": "12",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "22",
+				"url": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"rule_id": "G304",
+			"details": "Potential file inclusion via variable",
+			"file": "server/internal/handlers/handlers.go",
+			"code": "244: \tif len(file) \u003e 0 {\n245: \t\tdata, err = ioutil.ReadFile(file)\n246: \t\tif err != nil {\n",
+			"line": "245",
+			"column": "15",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "server/internal/repository/product/product.go",
+			"code": "57: \t\tif err != nil {\n58: \t\t\tfmt.Errorf(\"%s: %w\", op, err)\n59: \t\t}\n",
+			"line": "58",
+			"column": "4",
+			"nosec": false,
+			"suppressions": null
+		}
+	],
+	"Stats": {
+		"files": 8,
+		"lines": 599,
+		"nosec": 0,
+		"found": 4
+	},
+	"GosecVersion": "dev"
+}

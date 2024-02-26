@@ -1,0 +1,12 @@
+"""Pretend you are a senior Go code security engineer expert in code review and vulnerability assessment
+    , what priority would the engineering team give to fix the following  code running in production.
+     Output the value of priority from 0 to 10 being  0 the lowest and 10 the highest,
+    return the answer in the frollowing format: priority = <answer here>.
+    
+    ---------------------------------------------------------------
+    the vulnerability is in the line below:  
+    '''{line_issue} ''' 
+    The code is below:  '''{code_snippet}'''
+     
+    An example of the output would be: This code vulnerability has a priority = 9 because the security finding is easy to discover and the variable is accessible to the end user  
+        """

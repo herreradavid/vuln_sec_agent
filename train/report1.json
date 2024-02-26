@@ -1,0 +1,24 @@
+{
+    "file": "server/internal/handlers/handlers.go",
+    "line": 89,
+    "Subjective Priority": {
+        "Value": 8,
+        "Description": "Database arbitrary query execution"
+    },
+    "Fix": {
+        "story_points": 3,
+        "lines_affected": 1
+    },
+    "Score": {
+        "Severity": "MEDIUM",
+        "Confidence": "HIGH",
+        "Value": 6
+    },
+    "Code Analysis": {
+        "Real_impact": "HIGH",
+        "Details": "SQL string formatting"
+    },
+    "Exploitability": "Medium, automated",
+    "Is Test?": "No",
+    "CWE Scope Impact": "CIA"
+}

@@ -1,0 +1,62 @@
+This is the new task backlog: [
+    {'task_name': 'integrate Bitbucket', 'decription': 'add new ingration with bitbucket', 'story_points': 3, 'id': 'cqocvn', 'type': 'dev', 'priority': 7, 'repo_id': 'bank1/trasact', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Add php tool for application sec testing', 'decription': 'add new ingration with php sonarQuebe', 'story_points': 2, 'id': 'mews', 'type': 'security fix', 'priority': 9, 'repo_id': 'sec/go-unsafepointer-poc', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Add installation workflow', 'decription': 'add automation to installation workflow', 'story_points': 4, 'id': 'rs0wke', 'type': 'dev', 'priority': 5, 'repo_id': 'bank1/trasact', 'assignee': 'unassigned'
+    },
+    {'task_name': 'add package scanning with yarn audit', 'decription': 'add automation to installation workflow', 'story_points': 2, 'id': 'msgfow', 'type': 'dev', 'priority': 5, 'repo_id': 'bank1/trasact', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Add installation workflow', 'decription': 'add automation to installation workflow', 'story_points': 4, 'id': 'kefiw', 'type': 'dev', 'priority': 4, 'repo_id': 'sec/go-unsafepointer-poc', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Potential HTTP request made with variable url', 'description': 'Uncontrolled HTTP request destination could lead to URL manipulation and server-side request forgery (SSRF) vulnerabilities.', 'story_points': 3, 'id': 'main-12-potential', 'type': 'security-finding', 'priority': 8, 'location': '/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Deferring unsafe method "Close" on type "*os.File"', 'description': 'Deferred closing of file resources may lead to potential resource exhaustion or file descriptor leaks under certain conditions.', 'story_points': 3, 'id': 'main-14-deferring', 'type': 'security-finding', 'priority': 7, 'location': 'test/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Improper type casting leading to potential memory corruption', 'story_points': 3, 'id': 'main-27-use', 'type': 'security-finding', 'priority': 3, 'location': 'go-unsafepointer-poc/struct-cast/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Use of unsafe.Pointer could lead to unexpected behavior or crashes', 'story_points': 3, 'id': 'main-29-use', 'type': 'security-finding', 'priority': 5, 'location': './go-unsafepointer-poc/race-slice/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Race condition due to type coercion', 'story_points': 3, 'id': 'main-19-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/race-slice/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Information leakage through memory access', 'story_points': 3, 'id': 'main-14-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/information-leak/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Usage of unsafe.Pointer allows for manipulation of memory and can lead to type safety violations or segmentation faults.', 'story_points': 3, 'id': 'opcode-25-use', 'type': 'security-finding', 'priority': 3, 'location': 'go-unsafepointer-poc/go-fuse/opcode.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Use of unsafe package for type conversion and pointer arithmetic', 'story_points': 3, 'id': 'opcode-20-use', 'type': 'security-finding', 'priority': 4, 'location': 'go-unsafepointer-poc/go-fuse/opcode.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Improper calculation or checks could result in unexpected behavior due to misuse of unsafe pointers, may not always directly lead to vulnerability but requires auditing.', 'story_points': 3, 'id': 'opcode-12-use', 'type': 'security-finding', 'priority': 4, 'location': 'go-unsafepointer-poc/go-fuse/opcode.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Indirect use of unsafe pointers for type casting or memory manipulation may lead to arbitrary code execution or application crashes.', 'story_points': 3, 'id': 'exploit-29-use', 'type': 'security-finding', 'priority': 4, 'location': 'go-unsafepointer-poc/go-fuse/exploit.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Improper use of unsafe package could lead to memory manipulation vulnerabilities.', 'story_points': 3, 'id': 'exploit-19-use', 'type': 'security-finding', 'priority': 2, 'location': 'go-unsafepointer-poc/go-fuse/exploit.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Unsafe memory manipulation', 'story_points': 3, 'id': 'exploit-16-use', 'type': 'security-finding', 'priority': 6, 'location': 'go-unsafepointer-poc/go-fuse/exploit.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Improper use of unsafe could lead to memory corruption', 'story_points': 3, 'id': 'main-20-use', 'type': 'security-finding', 'priority': 4, 'location': 'go-unsafepointer-poc/escape-analysis/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Improper use of unsafe can lead to memory corruption', 'story_points': 3, 'id': 'main-15-use', 'type': 'security-finding', 'priority': 4, 'location': 'go-unsafepointer-poc/escape-analysis/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Direct memory manipulation via unsafe.Pointer can lead to arbitrary code execution.', 'story_points': 3, 'id': 'main-22-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/code-injection/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Code injection via unsafe pointer manipulation leading to potential arbitrary code execution', 'story_points': 3, 'id': 'main-21-use', 'type': 'security-finding', 'priority': 7, 'location': 'go-unsafepointer-poc/code-injection/main.go', 'assignee': 'unassigned'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Execution flow manipulation through unsafe pointer conversions', 'story_points': 3, 'id': 'main-54-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/code-flow-redirection/main.go', 'assignee': 'unassigned'
+    }
+]
+This is the new sprint: [
+    {'task_name': 'Add php tool for application sec testing', 'decription': 'add new ingration with php sonarQuebe', 'story_points': 2, 'id': 'mews', 'type': 'security fix', 'priority': 9, 'repo_id': 'sec/go-unsafepointer-poc', 'assignee': 'andrew'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Race condition due to type coercion', 'story_points': 3, 'id': 'main-19-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/race-slice/main.go', 'assignee': 'andrew'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Information leakage through memory access', 'story_points': 3, 'id': 'main-14-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/information-leak/main.go', 'assignee': 'stella'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Direct memory manipulation via unsafe.Pointer can lead to arbitrary code execution.', 'story_points': 3, 'id': 'main-22-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/code-injection/main.go', 'assignee': 'stella'
+    },
+    {'task_name': 'Finding: Use of unsafe calls should be audited', 'description': 'Execution flow manipulation through unsafe pointer conversions', 'story_points': 3, 'id': 'main-54-use', 'type': 'security-finding', 'priority': 9, 'location': 'go-unsafepointer-poc/code-flow-redirection/main.go', 'assignee': 'peter'
+    },
+    {'task_name': 'Finding: Potential HTTP request made with variable url', 'description': 'Uncontrolled HTTP request destination could lead to URL manipulation and server-side request forgery (SSRF) vulnerabilities.', 'story_points': 3, 'id': 'main-12-potential', 'type': 'security-finding', 'priority': 8, 'location': '/main.go', 'assignee': 'peter'
+    },
+    {'task_name': 'integrate Bitbucket', 'decription': 'add new ingration with bitbucket', 'story_points': 3, 'id': 'cqocvn', 'type': 'dev', 'priority': 7, 'repo_id': 'bank1/trasact', 'assignee': 'unassigned'
+    }
+]

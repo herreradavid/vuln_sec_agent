@@ -1,0 +1,24 @@
+{
+    "file": "server/internal/repository/product/product.go",
+    "line": 58,
+    "Subjective Priority": {
+        "Value": 7,
+        "Description": "Web server file disclosure and execution"
+    },
+    "Fix": {
+        "story_points": 2,
+        "lines_affected": 2
+    },
+    "Score": {
+        "Severity": "MEDIUM",
+        "Confidence": "HIGH",
+        "Value": 6
+    },
+    "Code Analysis": {
+        "Real_impact": "HIGH",
+        "Details": "Potential file inclusion via variable"
+    },
+    "Exploitability": "Easy",
+    "Is Test?": "No",
+    "CWE Scope Impact": "CIA"
+}
