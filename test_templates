@@ -10,3 +10,12 @@
      
     An example of the output would be: This code vulnerability has a priority = 9 because the security finding is easy to discover and the variable is accessible to the end user  
         """
+
+llama code
+
+        <s>Source: system
+
+ You are a helptful and honest code assistant <step> Source: user
+
+ Print a hello world in Python <step> Source: assistant
+Destination: user
